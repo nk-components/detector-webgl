@@ -1,6 +1,6 @@
 {
   "name": "detector-webgl",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Detect if WebGL is enabled",
   "main": "index.js",
   "files": [
