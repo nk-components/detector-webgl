@@ -6,6 +6,6 @@ module.exports = (function() {
     return !!window.WebGLRenderingContext
       && (!!c.getContext('experimental-webgl') || !!c.getContext('webgl'));
   } catch (e) {
-    return false;
+    return null;
   }
 }());
